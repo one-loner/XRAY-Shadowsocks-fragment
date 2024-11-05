@@ -1,0 +1,42 @@
+    {
+      "listen": "0.0.0.0",
+      "port": 8989,
+      "protocol": "shadowsocks",
+      "settings": {
+        "clients": [
+          {
+            "email": "9o3789fy",
+            "method": "chacha20-poly1305",
+            "password": "3Vj7nufUJyWwkHARhc9lJE/UJ2u5RCwdZf0UVQqGFPw="
+          },
+          {
+            "email": "ma3s3kog",
+            "method": "chacha20-poly1305",
+            "password": "yRsnpom9wksQhzwo7EqucPwGaYVLTpx9kIPp5/McWQE="
+          }
+        ],
+        "method": "chacha20-poly1305",
+        "network": "tcp,udp",
+        "password": "osGFRyqfZC3cB7fFo9vw808ZKhgSKa5PjzY2OVZcD90="
+      },
+      "sniffing": {
+        "destOverride": [
+          "http",
+          "tls",
+          "quic",
+          "fakedns"
+        ],
+        "enabled": true
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "none",
+        "tcpSettings": {
+          "acceptProxyProtocol": false,
+          "header": {
+            "type": "none"
+          }
+        }
+      },
+      "tag": "shadowsocks"
+    }
